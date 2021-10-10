@@ -3,7 +3,7 @@ package com.hackerrank.stereotypes.model;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-
+@Bean
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
